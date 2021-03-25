@@ -43,3 +43,8 @@ fruits.sort()
 fruits.sort(reverse=True)
 
 print(fruits)
+
+#List with different data types
+name = 'john'
+mix = [1, 2, 'lala', 2.5, True, name, fruits]
+print(mix)

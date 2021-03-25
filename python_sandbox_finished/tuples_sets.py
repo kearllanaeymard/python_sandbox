@@ -21,6 +21,14 @@ del fruits2
 # Get length
 print(len(fruits))
 
+#Create Tuple with different data types
+name = 'Lan'
+sampleList = [1, 2, 3]
+mix = ('this is a string', 2, 2.5, name, sampleList)
+print(mix)
+print(mix[4])
+
+
 
 # A Set is a collection which is unordered and unindexed. No duplicate members.
 
@@ -46,3 +54,5 @@ fruits_set.clear()
 del fruits_set
 
 print(fruits_set)
+
+
